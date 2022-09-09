@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, monospace;
+}
+
+nav { background-color: rgba(145, 145, 145, 0.925); }
+header { background-color: rgb(255, 255, 255); }
+main { background-color: rgb(5, 0, 0); }
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    padding-top: 10px;
+}
+ 
+nav {
+    width: 100%;
+    float: left;
+}
+
+nav h1 img {
+    width: 100px;
+}
+
+h1 {
+   float: left;
+}
+
+ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+    padding: 35px 15px;
+    float: left;
+}
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul li a {
+   background-color: rgb(255, 255, 255);
+   background-color: rgb(89, 97, 97);
+    padding: 6px 26px;
+    border: 4px solid transparent;
+    color: white;
+}
+
+ul li a:hover {
+    background-color: rgb(139, 139, 139);
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(255, 255, 255);
+}
+
+header img {
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+ .col-1  {width: 8.33%;}
+ .col-2  {width: 16.66%;}
+ .col-3  {width: 25%;}
+ .col-4  {width: 33.33%;}
+ .col-5  {width: 41.66%;}
+ .col-6  {width: 50%;}
+ .col-7  {width: 58.33%;}
+ .col-8  {width: 66.66%;}
+ .col-9  {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+
+[class*="col-"]  {
+    float: left;
+    padding: 5px;
+}
+
+main img {
+    width: 100%;
+    /* max-height: 400px; */
+}
+
+main {
+    background-color: rgb(255, 8, 8);
+}
+
+.center {
+    text-align: center;
+    
+}
+
+footer {
+    background-color: #F71D00;
+    color: rgb(255, 134, 134);
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/*Estilos para o Formulário */
+
+input[type="text"],
+input[type="email"],
+textarea, select {
+    width: 100%;
+    padding: 4px;
+    border: 2px, solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    margin: 4px 0;
+    resize: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+textarea:focus {
+    background-color: rgb(190, 166, 166);
+}
+
+header img {
+    width: 100%;
+    border: 4px solid rgb(168, 19, 19);
+    object-fit: cover;
+    object-position: center;
+    height: 300px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+}
+
+img.cover {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.valor {
+    font-size: 25px;
+}
+
+.titulo {
+    font-size: 20px;
+}
+.Comprar {
+    background-color: rgb(167, 150, 150);
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    font-size: 20px;
+}
+
+
+ .maior {
+font-size: 20px;
+}
